@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(10, 104, 26);
+  
+}
+nav a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.3em;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav div a{
+  border-style: solid;
+  border-width: 1px;
+  border-top: none;
+  border-bottom: none;
+  margin-right: 2px;
+  margin-left: 2px;
+}
+
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+p{
+  margin-top: 10px;
+}
+
+#abuelos{
+  height: max-content;
+  background-color: bisque;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#abuelos h1{
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+}
+#abuelos p{
+  font-size: 1.2em;
+  text-align: center;
+}
+#abuelos img{
+  width: 300px;
+}
+#abuelos .image-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+#abuelos .image-container img{
+  width: 300px;
+}
+#abuelos .image-title{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#abuelos .image-title img{
+  height: 250px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#abuelos .image-title .dr{
+  margin-top: 5px;
+  font-size: 20px;
+  font-weight: 500;
+}
+#abuelos .image-title p{
+  max-width: 400px;
+}
+
